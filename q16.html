@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Q- Create image-final by styling the following html(it should be responsive)-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      margin: 0;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    .box{
+      height: 21rem;
+      width: 20rem;
+      background-color: black;
+    }
+    .leg1,.leg2{
+height: 1.5rem;
+width: 80%;
+background-color: red;
+border: 1.5px solid black;
+    }
+    .leg1{
+      transform: rotate(45deg) translateY(80px) translateX(120px);
+    }
+    .leg2{
+      transform: rotate(-45deg) translateX(-55px) translateY(115px);
+    }
+  </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="leg1"></div>
+      <div class="leg2"></div>
+    </div>
+  </body>
+</html>
